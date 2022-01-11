@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'Spartan';
+    font-style:  normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("./Spartan-Light.ttf") format("truetype"),
+         url("./Spartan-ExtraLight.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-family: 'Spartan';
+    font-style:  normal;
+    font-weight: 500;
+    src: url("./Spartan-Medium.ttf") format("truetype"),
+         url("./Spartan-Regular.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-family: 'Spartan';
+    font-style:  normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url("./Spartan-Bold.ttf") format("truetype"),
+         url("./Spartan-SemiBold.ttf") format("truetype");
+  }
