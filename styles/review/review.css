@@ -2,15 +2,23 @@
     max-width: 1110px;
     display: flex;
     flex-direction: column;
-    max-height: 235px;
-    margin-left: 165px;
-    margin-top: 127px;
+    margin: auto;
 }
 
 @media screen and (max-width: 500px) {
     .review {
         flex-direction: column;
-        margin: 80px auto;
         align-items: center;
     } 
+ }
+
+ .body {
+    margin-top: 127px;
+    padding: 165px auto 100px;
+ }
+
+ @media screen and (max-width: 500px) {
+     .body {
+         margin-top: 80px;
+     }
  }
