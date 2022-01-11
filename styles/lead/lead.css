@@ -1,46 +1,10 @@
-.header {
-    position: relative;
-    flex-direction: column;
-    width: 445px;
-    color: #512051;
-}
-
-@media screen and (max-width: 500px) {
-    .header {
-       max-width: 327px;
-    } 
+.lead {
+    display: flex;
+    flex-direction: row;
  }
 
-.header__title {
-    font-family: "Spartan";
-    font-style: normal;
-    font-weight: bold;
-    font-size: 48px;
-    line-height: 48px;
-    margin: 0
-}
-
-@media screen and (max-width: 500px) {
-    .header__title {
-        font-size: 30px;
-        line-height: 30px;
-        text-align: center;
-    } 
- }
-
-.header__subtitle {
-    font-family: "Spartan";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 25px;  
-}
-
-@media screen and (max-width: 500px) {
-    .header__subtitle {
-        font-size: 13px;
-        line-height: 22px;
-        text-align: center;
-        color: #927B91;
-    } 
+ @media screen and (max-width: 500px) {
+     .lead {
+         flex-direction: column;
+     }
  }

@@ -14,14 +14,3 @@
         align-items: center;
     } 
  }
-
- .lead {
-    display: flex;
-    flex-direction: row;
- }
-
- @media screen and (max-width: 500px) {
-     .lead {
-         flex-direction: column;
-     }
- }
