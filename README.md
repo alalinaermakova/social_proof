@@ -11,4 +11,4 @@ Landing page with peoples reviews.
 
 ============================
 
- [Link to the project]()
+ [Link to the project](https://alalinaermakova.github.io/social_proof/)
